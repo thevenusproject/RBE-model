@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.10.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.energy.GeneratedEnergy">
+            <fields>
+                <field type="FLOAT" length="255" name="Joules" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.energy.LithiumBattery">
+            <fields>
+                <field type="FLOAT" length="255" name="Joules" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.energy.MassStorage">
+            <fields>
+                <field type="STRING" length="255" name="Joules" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.wellbeing.Patient">
+            <fields>
+                <field type="STRING" length="255" name="date_of_birth_encrypted" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="id_token" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.wellbeing.Triage" fetchType="LAZY" name="latest_triage_encrypted" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.people.Resident">
+            <fields>
+                <field type="STRING" length="255" name="date_of_birth" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="medical_public_encryption_key" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="neural_conditioning_public_encryption_key" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.agr.Strawberry">
+            <fields>
+                <field type="BOOLEAN" length="255" name="Ripe" nullable="false" collection="false"/>
+                <field type="FLOAT" length="255" name="Weight" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="Bad" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="Sweetness" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.agr.StrawberryPlot">
+            <fields>
+                <field type="INTEGER" length="255" name="plotSize" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="weight" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.wellbeing.Triage">
+            <fields>
+                <field type="INTEGER" length="255" name="BloodPressure" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="BloodType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="BloodSugar" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.people.Visitor">
+            <fields>
+                <field type="STRING" length="255" name="date_of_birth" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

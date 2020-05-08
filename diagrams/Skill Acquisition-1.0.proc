@@ -151,7 +151,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_6S9k-JFQEeqFN64BkO7kBw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_6S9k95FQEeqFN64BkO7kBw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_Bfy_EJFREeqFN64BkO7kBw" name="Get Instructor" outgoing="_xTgz8JEfEeqmNY4MMMiG-Q" incoming="_Bf_zYJFREeqFN64BkO7kBw">
+        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_Bfy_EJFREeqFN64BkO7kBw" name="Get Instructors" outgoing="_xTgz8JEfEeqmNY4MMMiG-Q" incoming="_Bf_zYJFREeqFN64BkO7kBw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Bfy_EpFREeqFN64BkO7kBw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Bfy_EZFREeqFN64BkO7kBw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Bfy_E5FREeqFN64BkO7kBw" name="" content="" returnTypeFixed="true"/>
@@ -452,7 +452,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_BfzmIJFREeqFN64BkO7kBw" type="3014" element="_Bfy_EJFREeqFN64BkO7kBw" fontName=".AppleSystemUIFont">
               <children xmi:type="notation:DecorationNode" xmi:id="_Bf0NMJFREeqFN64BkO7kBw" type="5030">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_Bf0NMZFREeqFN64BkO7kBw" y="5"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Bf0NMZFREeqFN64BkO7kBw" x="2" y="10"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfzmIZFREeqFN64BkO7kBw" x="391" y="158"/>
             </children>

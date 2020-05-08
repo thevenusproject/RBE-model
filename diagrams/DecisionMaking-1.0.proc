@@ -37,7 +37,7 @@
             <correlation xmi:type="process:Correlation" xmi:id="_NDCTYZE-EeqRyKCsP6SKxA">
               <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_NDCTYpE-EeqRyKCsP6SKxA"/>
             </correlation>
-            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_NDCTY5E-EeqRyKCsP6SKxA" name="Decision Making" content="Decision Making" returnTypeFixed="true"/>
+            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_NDCTY5E-EeqRyKCsP6SKxA" name="Resource Allocation" content="Resource Allocation" returnTypeFixed="true"/>
             <targetElementExpression xmi:type="expression:Expression" xmi:id="_NDCTZJE-EeqRyKCsP6SKxA" name="Decision to arrive at" content="Decision to arrive at" returnTypeFixed="true"/>
             <messageContent xmi:type="expression:TableExpression" xmi:id="_NDCTZZE-EeqRyKCsP6SKxA">
               <expressions xmi:type="expression:ListExpression" xmi:id="_NDCTZpE-EeqRyKCsP6SKxA">
@@ -55,7 +55,7 @@
             <correlation xmi:type="process:Correlation" xmi:id="_6RQdIZFCEeqYebkRM8FsyA">
               <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_6RQdIpFCEeqYebkRM8FsyA"/>
             </correlation>
-            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_6RQdI5FCEeqYebkRM8FsyA" name="Decision Making" content="Decision Making" returnTypeFixed="true"/>
+            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_6RQdI5FCEeqYebkRM8FsyA" name="Resource Allocation" content="Resource Allocation" returnTypeFixed="true"/>
             <targetElementExpression xmi:type="expression:Expression" xmi:id="_6RQdJJFCEeqYebkRM8FsyA" name="Decision to arrive at" content="Decision to arrive at" returnTypeFixed="true"/>
             <messageContent xmi:type="expression:TableExpression" xmi:id="_6RQdJZFCEeqYebkRM8FsyA">
               <expressions xmi:type="expression:ListExpression" xmi:id="_6RQdJpFCEeqYebkRM8FsyA">
@@ -73,7 +73,7 @@
             <correlation xmi:type="process:Correlation" xmi:id="_AqjhgZFDEeqYebkRM8FsyA">
               <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_AqjhgpFDEeqYebkRM8FsyA"/>
             </correlation>
-            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_Aqjhg5FDEeqYebkRM8FsyA" name="Decision Making" content="Decision Making" returnTypeFixed="true"/>
+            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_Aqjhg5FDEeqYebkRM8FsyA" name="Resource Allocation" content="Resource Allocation" returnTypeFixed="true"/>
             <targetElementExpression xmi:type="expression:Expression" xmi:id="_AqjhhJFDEeqYebkRM8FsyA" name="Decision to arrive at" content="Decision to arrive at" returnTypeFixed="true"/>
             <messageContent xmi:type="expression:TableExpression" xmi:id="_AqjhhZFDEeqYebkRM8FsyA">
               <expressions xmi:type="expression:ListExpression" xmi:id="_AqjhhpFDEeqYebkRM8FsyA">
@@ -114,7 +114,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_7gVAspE0EeqRyKCsP6SKxA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_7gVAsZE0EeqRyKCsP6SKxA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_7gVAs5E0EeqRyKCsP6SKxA" name="" content="" returnTypeFixed="true"/>
-          <condition xmi:type="expression:Expression" xmi:id="_8bDjkJE0EeqRyKCsP6SKxA" name="0 0 12 1/1 * ? *" content="0 0 12 1/1 * ? *"/>
+          <condition xmi:type="expression:Expression" xmi:id="_8bDjkJE0EeqRyKCsP6SKxA" name="0 0 12 ? * MON *" content="0 0 12 ? * MON *"/>
         </elements>
         <elements xmi:type="process:ServiceTask" xmi:id="_EbxRsJE1EeqRyKCsP6SKxA" name="Locate stakeholders" outgoing="_QvLkEJE1EeqRyKCsP6SKxA" incoming="_Eb0VAJE1EeqRyKCsP6SKxA _G-ZmgJE1EeqRyKCsP6SKxA">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_1EzOEJE8EeqRyKCsP6SKxA" source="_1ExY4JE8EeqRyKCsP6SKxA"/>
@@ -484,6 +484,36 @@
         <value xmi:type="expression:Expression" xmi:id="_WMg13pE9EeqRyKCsP6SKxA" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
+    <elements xmi:type="process:Pool" xmi:id="_VGz2YJFbEeqFN64BkO7kBw" name="Resource Allocation">
+      <elements xmi:type="process:Lane" xmi:id="_WH0AYJFbEeqFN64BkO7kBw" name="Lane1"/>
+      <formMapping xmi:type="process:FormMapping" xmi:id="_VG1rn5FbEeqFN64BkO7kBw">
+        <targetForm xmi:type="expression:Expression" xmi:id="_VG1roJFbEeqFN64BkO7kBw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </formMapping>
+      <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_VG1roZFbEeqFN64BkO7kBw">
+        <targetForm xmi:type="expression:Expression" xmi:id="_VG1ropFbEeqFN64BkO7kBw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </overviewFormMapping>
+      <contract xmi:type="process:Contract" xmi:id="_VG1ro5FbEeqFN64BkO7kBw"/>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_VG1rkJFbEeqFN64BkO7kBw">
+        <name xmi:type="expression:Expression" xmi:id="_VG1rkZFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_VG1rkpFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_VG1rk5FbEeqFN64BkO7kBw">
+        <name xmi:type="expression:Expression" xmi:id="_VG1rlJFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_VG1rlZFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_VG1rlpFbEeqFN64BkO7kBw">
+        <name xmi:type="expression:Expression" xmi:id="_VG1rl5FbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_VG1rmJFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_VG1rmZFbEeqFN64BkO7kBw">
+        <name xmi:type="expression:Expression" xmi:id="_VG1rmpFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_VG1rm5FbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_VG1rnJFbEeqFN64BkO7kBw">
+        <name xmi:type="expression:Expression" xmi:id="_VG1rnZFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_VG1rnpFbEeqFN64BkO7kBw" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+    </elements>
     <datatypes xmi:type="process:BooleanType" xmi:id="_dTk9HJEuEeqRyKCsP6SKxA" name="Boolean"/>
     <datatypes xmi:type="process:DateType" xmi:id="_dTk9HZEuEeqRyKCsP6SKxA" name="Date"/>
     <datatypes xmi:type="process:IntegerType" xmi:id="_dTk9HpEuEeqRyKCsP6SKxA" name="Integer"/>
@@ -506,7 +536,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_dTk9K5EuEeqRyKCsP6SKxA" type="7002">
             <children xmi:type="notation:Shape" xmi:id="_e_FnEJEvEeqRyKCsP6SKxA" type="3012" element="_e_EY8JEvEeqRyKCsP6SKxA" fontName=".AppleSystemUIFont">
               <children xmi:type="notation:DecorationNode" xmi:id="_e_FnEpEvEeqRyKCsP6SKxA" type="5029">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_e_FnE5EvEeqRyKCsP6SKxA" y="5"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_e_FnE5EvEeqRyKCsP6SKxA" x="2" y="10"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e_FnEZEvEeqRyKCsP6SKxA" x="60" y="117" width="30" height="30"/>
             </children>
@@ -750,6 +780,25 @@
       <styles xmi:type="notation:FillStyle" xmi:id="_WMhc55E9EeqRyKCsP6SKxA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WMhc5JE9EeqRyKCsP6SKxA" width="990" height="250"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_VG1rpJFbEeqFN64BkO7kBw" type="2007" element="_VGz2YJFbEeqFN64BkO7kBw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VG1rqZFbEeqFN64BkO7kBw" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VG1rqpFbEeqFN64BkO7kBw" type="7001">
+        <children xmi:type="notation:Node" xmi:id="_WH0ncJFbEeqFN64BkO7kBw" type="3007" element="_WH0AYJFbEeqFN64BkO7kBw">
+          <children xmi:type="notation:DecorationNode" xmi:id="_WH0ndZFbEeqFN64BkO7kBw" type="5007"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_WH0ndpFbEeqFN64BkO7kBw" type="7002"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_WH0ncZFbEeqFN64BkO7kBw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_WH0ncpFbEeqFN64BkO7kBw" fontName=".AppleSystemUIFont"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_WH0nc5FbEeqFN64BkO7kBw"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_WH0nd5FbEeqFN64BkO7kBw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WH0ndJFbEeqFN64BkO7kBw" x="93" y="49"/>
+        </children>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VG1rpZFbEeqFN64BkO7kBw"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VG1rppFbEeqFN64BkO7kBw" fontName=".AppleSystemUIFont"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_VG1rp5FbEeqFN64BkO7kBw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_VG1rq5FbEeqFN64BkO7kBw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VG1rqJFbEeqFN64BkO7kBw" width="840" height="250"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_dTk9PZEuEeqRyKCsP6SKxA"/>
     <edges xmi:type="notation:Connector" xmi:id="_dTk9PpEuEeqRyKCsP6SKxA" type="4001" element="_dTk9CJEuEeqRyKCsP6SKxA" source="_e_FnEJEvEeqRyKCsP6SKxA" target="_P356qZExEeqRyKCsP6SKxA" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_dTk9P5EuEeqRyKCsP6SKxA" type="6001">
@@ -788,7 +837,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_0it1tJExEeqRyKCsP6SKxA" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_0it1sZExEeqRyKCsP6SKxA" fontName=".AppleSystemUIFont"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0it1spExEeqRyKCsP6SKxA" points="[18, -12, -148, -57]$[64, -12, -102, -57]$[64, 45, -102, 0]$[151, 45, -15, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0it1spExEeqRyKCsP6SKxA" points="[4, 2, -174, -86]$[65, 2, -113, -86]$[65, 73, -113, -15]$[173, 73, -5, -15]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1XuyIJExEeqRyKCsP6SKxA" id="(0.4186046511627907,0.9302325581395349)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_SSU5MJEyEeqRyKCsP6SKxA" type="4001" element="_SSUSIJEyEeqRyKCsP6SKxA" source="_P356qZExEeqRyKCsP6SKxA" target="_SSRO0JEyEeqRyKCsP6SKxA" roundedBendpointsRadius="10" routing="Rectilinear">
@@ -922,7 +971,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_AqkvpJFDEeqYebkRM8FsyA" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_AqkvoZFDEeqYebkRM8FsyA" fontName=".AppleSystemUIFont"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AqkvopFDEeqYebkRM8FsyA" points="[15, 0, 689, -1078]$[250, 0, 924, -1078]$[250, 963, 924, -115]$[-674, 963, 0, -115]$[-674, 1063, 0, -15]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AqkvopFDEeqYebkRM8FsyA" points="[14, -1, 715, -1072]$[223, -1, 924, -1072]$[223, 957, 924, -114]$[-695, 957, 6, -114]$[-695, 1057, 6, -14]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_G-uOQJFDEeqYebkRM8FsyA" type="4001" element="_G-tnMJFDEeqYebkRM8FsyA" source="_66wfY5E9EeqRyKCsP6SKxA" target="_pmONw5FDEeqYebkRM8FsyA" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_G-uOQ5FDEeqYebkRM8FsyA" type="6001">

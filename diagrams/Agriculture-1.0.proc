@@ -472,7 +472,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_XBfmMnXXEeq1TJAdwa78BA" fontName=".AppleSystemUIFont"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_XBfmM3XXEeq1TJAdwa78BA"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_XBfmN3XXEeq1TJAdwa78BA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBfmNHXXEeq1TJAdwa78BA" x="60" y="366"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XBfmNHXXEeq1TJAdwa78BA" x="19" y="381" width="978" height="282"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_A405AGVPEequ9N1qDIxMvw"/>

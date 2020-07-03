@@ -492,7 +492,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_oaTvkbJFEeq_W6pXnlyepA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_oaTvk7JFEeq_W6pXnlyepA" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:TextAnnotation" xmi:id="_WSBlcLJOEeq_W6pXnlyepA" text="(which? ____) should ____ verb ___  noun ____ for/to ___(goal/motivation/purpose = why do &lt;verb>?)___&#xA;&#xA;* Should we build a farmbot to increase engagement of the center visitors?&#xA;* Which criteria should we use for new residents to maximize efficiency?&#xA;* Which platform should we use for effective decision making?&#xA;* Should we accept this new resident to complete the construction of the campus?&#xA;* should we implement a new project transparency dashboard on the TVP website to => retain existing supporters + improving conversion of the visitors&#xA;&#xA;Structured decision format:&#xA;* Options (&lt;- needs to be provided if 'which')&#xA;* Action (&lt;- verb+noun)&#xA;* Goal(s)"/>
+        <elements xmi:type="process:TextAnnotation" xmi:id="_WSBlcLJOEeq_W6pXnlyepA" text="(which? ____) should ____ verb ___  noun ____ for/to ___(goal/motivation/purpose = why do &lt;verb>?)___&#xA;&#xA;* Should we build a farmbot to increase engagement of the center visitors?&#xA;* Which criteria should we use for new residents to maximize organizational efficiency?&#xA;* Which platform should we use for effective decision making?&#xA;* Should we accept this new resident to complete the construction of the campus?&#xA;* should we implement a new project transparency dashboard on the TVP website to => retain existing supporters + improving conversion of the visitors&#xA;&#xA;Structured decision format:&#xA;* Options (&lt;- needs to be provided if 'which')&#xA;* Action (&lt;- verb+noun)&#xA;* Goal(s)"/>
         <elements xmi:type="process:ServiceTask" xmi:id="_1HrjoLJREeq_W6pXnlyepA" name="Inspect syntax and goal validity" outgoing="_7Q3IYLJREeq_W6pXnlyepA" incoming="_1Hum8LJREeq_W6pXnlyepA">
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_WugtILJOEeq_W6pXnlyepA" source="_WSBlcLJOEeq_W6pXnlyepA"/>
           <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_Xk4dUL03EeqGG6w3Dt49BQ" source="_Uy-9cL03EeqGG6w3Dt49BQ"/>
@@ -1064,7 +1064,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_-i0wwLJDEeq_W6pXnlyepA" type="3027" element="_-i0JsLJDEeq_W6pXnlyepA" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_-i0wwrJDEeq_W6pXnlyepA" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-i0wwbJDEeq_W6pXnlyepA" x="69" y="462" width="126" height="63"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-i0wwbJDEeq_W6pXnlyepA" x="80" y="448" width="126" height="63"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_DREBgLJEEeq_W6pXnlyepA" type="3027" element="_DRCzYLJEEeq_W6pXnlyepA" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_DREBgrJEEeq_W6pXnlyepA" type="5017"/>
@@ -1076,7 +1076,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_xfIbiLJEEeq_W6pXnlyepA" type="3027" element="_xfH0cLJEEeq_W6pXnlyepA" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_xfJCkLJEEeq_W6pXnlyepA" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfIbibJEEeq_W6pXnlyepA" x="63" y="312" width="140" height="70"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xfIbibJEEeq_W6pXnlyepA" x="80" y="289" width="126" height="63"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_8_IT8LJEEeq_W6pXnlyepA" type="3017" element="_8_Hs4LJEEeq_W6pXnlyepA" fontName=".AppleSystemUIFont">
               <children xmi:type="notation:DecorationNode" xmi:id="_8_I7ALJEEeq_W6pXnlyepA" type="5032">
@@ -1107,7 +1107,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_1HsxwLJREeq_W6pXnlyepA" type="3027" element="_1HrjoLJREeq_W6pXnlyepA" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_1HsxwrJREeq_W6pXnlyepA" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1HsxwbJREeq_W6pXnlyepA" x="106" y="134" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1HsxwbJREeq_W6pXnlyepA" x="87" y="134" width="120" height="60"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_5p5KkLJREeq_W6pXnlyepA" type="3011" element="_5p38cLJREeq_W6pXnlyepA" fontName=".AppleSystemUIFont">
               <children xmi:type="notation:DecorationNode" xmi:id="_5p5KkrJREeq_W6pXnlyepA" type="5028">
@@ -1151,7 +1151,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_SmndcL1AEeqGG6w3Dt49BQ" type="3027" element="_SmmPUL1AEeqGG6w3Dt49BQ" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_Smndcr1AEeqGG6w3Dt49BQ" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Smndcb1AEeqGG6w3Dt49BQ" x="83" y="397"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Smndcb1AEeqGG6w3Dt49BQ" x="88" y="367" width="117" height="58"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_gZYScZE9EeqRyKCsP6SKxA"/>
@@ -1583,7 +1583,6 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_c2GGAb08EeqGG6w3Dt49BQ" fontName=".AppleSystemUIFont"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c2GGAr08EeqGG6w3Dt49BQ" points="[-32, 2, 53, -63]$[-77, 54, 8, -11]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c2HUIL08EeqGG6w3Dt49BQ" id="(1.0,0.7209302325581395)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c2HUIb08EeqGG6w3Dt49BQ" id="(0.6357142857142857,0.15714285714285714)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_d8wMEL08EeqGG6w3Dt49BQ" type="4001" element="_d8vlAL08EeqGG6w3Dt49BQ" source="_SmndcL1AEeqGG6w3Dt49BQ" target="_-i0wwLJDEeq_W6pXnlyepA" roundedBendpointsRadius="10" routing="Rectilinear">

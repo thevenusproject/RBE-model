@@ -783,7 +783,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_VWsDBIDUEeq4EJPVhj-lYw" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_VWsDAYDUEeq4EJPVhj-lYw" fontName=".AppleSystemUIFont"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VWsDAoDUEeq4EJPVhj-lYw" points="[-1, 1, 552, 137]$[-1, 118, 552, 254]$[-542, 118, 11, 254]$[-542, -125, 11, 11]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VWsDAoDUEeq4EJPVhj-lYw" points="[-2, 1, 551, 137]$[-2, 41, 551, 177]$[-542, 41, 11, 177]$[-542, -125, 11, 11]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VWtRIIDUEeq4EJPVhj-lYw" id="(0.8,0.8666666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VWtRIYDUEeq4EJPVhj-lYw" id="(0.03,0.78)"/>
     </edges>
